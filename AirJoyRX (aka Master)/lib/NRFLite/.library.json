@@ -1,0 +1,39 @@
+{
+    "description": "nRF24L01+ library requiring very little code along with YouTube videos showing all available features.", 
+    "repository": {
+        "url": "https://github.com/dparson55/NRFLite", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Dave Parson", 
+            "url": null, 
+            "email": "dparson55@hotmail.com"
+        }
+    ], 
+    "keywords": [
+        "communication"
+    ], 
+    "id": 1898, 
+    "name": "NRFLite", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "2.0.1", 
+    "homepage": null
+}
