@@ -60,11 +60,13 @@ Hardware:
 This project consists of a receiving part and one ore more sending parts, referred to as 'Master' and 'AirStick'(s).
 
 Master:
+
 	Arduino Pro Micro
 	2x nrf24l01+ board  (3.6v !!!)
 	some sort of voltage-regulation 5v -> 3.6v
 	
 AirStick:
+
 	Arduino Pro Mini
 	Digital 'old-school' Joystick with UP/DOWN/LEFT/RIGHT stick and 2 pushbuttons
 	nrf24l01+ board (3.3v !!!)
@@ -77,10 +79,12 @@ Notes on Hardware:
 Since neither of the used Arduinos provide 3.3 volts, I used 
 
 for the Master:
+
 	a 5v/16MHz Arduino connected to USB, powering the nRF24L01+ 
 	board through a lf33cv line-regulator
 	
 for the AirStick(s):
+
 	a 5v/16MHz Arduino at 3.3 volts from a power-source and from 
 	a LI-ION battery, powering the nRF24L01+ through the arduinos 
 	vcc
@@ -142,23 +146,28 @@ Libraries used:
 ----------------
 
 Low-Power
-Author: Rocket Scream Electronics
-Version: 1.6 
-URL: https://github.com/rocketscream/Low-Power
+
+	Author: Rocket Scream Electronics
+	Version: 1.6 
+	URL: https://github.com/rocketscream/Low-Power
 
 NRFLite
-Author=Dave Parson <dparson55@hotmail.com>
-Version=2.0.1
-URL=https://github.com/dparson55/NRFLite
+
+	Author: Dave Parson <dparson55@hotmail.com>
+	Version: 2.0.1
+	URL: https://github.com/dparson55/NRFLite
 
 Joystick
-Author=Matthew Heironimus
-Version=2.0.4
-URL=https://github.com/MHeironimus/ArduinoJoystickLibrary
+
+	Author: Matthew Heironimus
+	Version: 2.0.4
+	URL: https://github.com/MHeironimus/ArduinoJoystickLibrary
 
 
 
 
+Final Words:
+-------------
 
 Coded with pain and pleasure by The Don in 12/2017
 
